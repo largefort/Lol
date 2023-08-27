@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="10035" id="org.dashnet.cookieclicker" version="1.0.0">
+	<feature name="Device">
+		<param name="android-package" value="org.apache.cordova.device.Device" />
+	</feature>
+	<feature name="File">
+		<param name="android-package" value="org.apache.cordova.file.FileUtils" />
+		<param name="onload" value="true" />
+	</feature>
+	<allow-navigation href="cdvfile:*" />
+	<feature name="InAppBrowser">
+		<param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+	</feature>
+	<feature name="NetworkStatus">
+		<param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+	</feature>
+	<feature name="AdMob">
+		<param name="android-package" value="name.ratson.cordova.admob.AdMob" />
+		<param name="onload" value="true" />
+	</feature>
+	<feature name="Diagnostic">
+		<param name="android-package" value="cordova.plugins.Diagnostic" />
+		<param name="onload" value="true" />
+	</feature>
+	<access origin="https://ssl.gstatic.com/accessibility/javascript/android/*" />
+	<feature name="MobileAccessibility">
+		<param name="android-package" value="com.phonegap.plugin.mobileaccessibility.MobileAccessibility" />
+	</feature>
+	<name>Cookie Clicker\u0009	</name>
+	<description>\" The official mobile version of Cookie Clicker, by DashNet. \"\u0009	</description>
+	<author href="http://dashnet.org">\" DashNet \"\u0009	</author>
+	<preference name="cordova.plugins.diagnostic.modules" value="" />
+	<content src="index.html" />
+	<access origin="*" />
+	<icon src="www/img/icon/mipmap-xxxhdpi/cookieclicker.png" />
+	<icon background="www/img/icon/mipmap-mdpi/cookieclicker_background.png" density="mdpi" foreground="www/img/icon/mipmap-mdpi/cookieclicker_foreground.png" />
+	<icon background="www/img/icon/mipmap-hdpi/cookieclicker_background.png" density="hdpi" foreground="www/img/icon/mipmap-hdpi/cookieclicker_foreground.png" />
+	<icon background="www/img/icon/mipmap-xhdpi/cookieclicker_background.png" density="xhdpi" foreground="www/img/icon/mipmap-xhdpi/cookieclicker_foreground.png" />
+	<icon background="www/img/icon/mipmap-xxhdpi/cookieclicker_background.png" density="xxhdpi" foreground="www/img/icon/mipmap-xxhdpi/cookieclicker_foreground.png" />
+	<icon background="www/img/icon/mipmap-xxxhdpi/cookieclicker_background.png" density="xxxhdpi" foreground="www/img/icon/mipmap-xxxhdpi/cookieclicker_foreground.png" />
+	<preference name="loglevel" value="DEBUG" />
+	<preference name="orientation" value="portrait" />
+	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+	<preference name="permissions" value="none" />
+	<preference name="android-targetSdkVersion" value="30" />
+	<preference name="AndroidXEnabled" value="true" />
+</widget>
